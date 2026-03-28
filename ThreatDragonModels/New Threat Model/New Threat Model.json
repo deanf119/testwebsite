@@ -42,12 +42,10 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "3a882ba1-ae2b-404d-9b94-e3ac5fca5ded",
-                "f01295b4-d039-4909-9943-bf3ee157802c"
+                "3a882ba1-ae2b-404d-9b94-e3ac5fca5ded"
               ],
               "containedElements": [
-                "f8b626bf-bdde-4ae2-8266-d9700078cf4b",
-                "97fdfff1-c759-4599-9458-286782425062"
+                "f8b626bf-bdde-4ae2-8266-d9700078cf4b"
               ]
             }
           },
@@ -76,8 +74,7 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "3a882ba1-ae2b-404d-9b94-e3ac5fca5ded",
-                "f01295b4-d039-4909-9943-bf3ee157802c"
+                "3a882ba1-ae2b-404d-9b94-e3ac5fca5ded"
               ],
               "containedElements": [
                 "72751531-bfef-4e08-9ebe-60a7f0c4c3d4",
@@ -923,178 +920,6 @@
                 "y": -260
               }
             ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Indirect Prompts",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "20a19f72-184f-42e0-aa80-383b1b9b5fa8",
-                "d07a70f6-b6ed-4b24-88df-4fa03c353186"
-              ]
-            },
-            "labels": [
-              "Indirect Prompts"
-            ],
-            "id": "f01295b4-d039-4909-9943-bf3ee157802c",
-            "source": {
-              "cell": "97fdfff1-c759-4599-9458-286782425062",
-              "port": "1693c3c3-e65b-4f73-b7ae-7ade63557bdc"
-            },
-            "target": {
-              "cell": "72751531-bfef-4e08-9ebe-60a7f0c4c3d4",
-              "port": "04fa5142-c634-4a18-a7df-e3e6880c1554"
-            },
-            "vertices": [
-              {
-                "x": 570,
-                "y": -100
-              }
-            ]
-          },
-          {
-            "position": {
-              "x": 130,
-              "y": -130
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Third Party Website"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "ca2cd2d0-d782-4a0a-a41c-2a6f68ac19ad"
-                },
-                {
-                  "group": "right",
-                  "id": "1693c3c3-e65b-4f73-b7ae-7ade63557bdc"
-                },
-                {
-                  "group": "bottom",
-                  "id": "7676c75a-51df-4b29-85f8-9dbb2fd6f7f2"
-                },
-                {
-                  "group": "left",
-                  "id": "a10afa02-29bf-4a57-aa79-bd08f9888b59"
-                }
-              ]
-            },
-            "id": "97fdfff1-c759-4599-9458-286782425062",
-            "zIndex": 11,
-            "data": {
-              "type": "tm.Actor",
-              "name": "Third Party Website",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
           }
         ]
       }
